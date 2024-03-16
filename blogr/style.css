@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    z-index: -1;
+    position: relative; 
+    border-bottom-left-radius: 70px;
+    /* background:to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%) url('./images/bg-pattern-intro-desktop.svg') no repeat left bottom ;
+     background: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%)), 
+              url('./images/bg-pattern-intro-desktop.svg')  right top / cover no-repeat; 
+          */
+    
+}
+
+.intro-image img{
+    margin-top: -1400px;
+    margin-left: -300px;
+    position: absolute;
+    z-index: -1;
+    overflow: hidden; 
+}
+
+.home-info{
+    text-align: center;
+    padding: 100px;
+}
+
+.home-info h1{
+    font-size: 40px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 20px;
+}
+
+button{
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid  hsl(0, 0%, 100%);
+}
+
+.btn{
+    display: flex;
+    width: 700px;
+    margin-left: 800px;
+}
+
+.btn button{
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.designed{
+    color: hsl(208, 56%, 19%);
+    margin-top: 150px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    margin-top: -150px;
+    width: 100%;
+    height: 800px;
+}
